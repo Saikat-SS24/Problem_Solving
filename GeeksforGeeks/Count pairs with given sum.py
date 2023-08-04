@@ -1,23 +1,24 @@
-# Given an array of N integers, and an integer K, find the number of pairs of elements in the array whose 
-# sum is equal to K.
+""" Given an array of N integers, and an integer K, find the number of pairs of elements in the array whose 
+sum is equal to K.
 
-# Input:
-# N = 4, K = 6
-# arr[] = {1, 5, 7, 1}
-# Output: 2
-# Explanation: 
-# arr[0] + arr[1] = 1 + 5 = 6 
-# and arr[1] + arr[3] = 5 + 1 = 6.
+Input:
+N = 4, K = 6
+arr[] = {1, 5, 7, 1}
+Output: 2
+Explanation: 
+arr[0] + arr[1] = 1 + 5 = 6 
+and arr[1] + arr[3] = 5 + 1 = 6.
 
-# Input:
-# N = 4, K = 2
-# arr[] = {1, 1, 1, 1}
-# Output: 6
-# Explanation: 
-# Each 1 will produce sum 2 with any 1.
+Input:
+N = 4, K = 2
+arr[] = {1, 1, 1, 1}
+Output: 6
+Explanation: 
+#Each 1 will produce sum 2 with any 1. """
     
 
 #User function Template for python3
+
 import bisect
 class Solution:
     def getPairsCount(self, arr, n, k):

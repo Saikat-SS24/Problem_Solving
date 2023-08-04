@@ -1,29 +1,29 @@
-# Given a Binary Search Tree of size N, find the Median of its Node values.
+""" Given a Binary Search Tree of size N, find the Median of its Node values.
 
-# Example 1:
+Example 1:
 
-# Input:
-#       6
-#     /   \
-#   3      8   
-#  /  \    /  \
-# 1    4  7    9
-# Output: 6
-# Explanation: Inorder of Given BST will be:
-# 1, 3, 4, 6, 7, 8, 9. So, here median will 6.
+Input:
+       6
+     /   \
+   3      8   
+  /  \    /  \
+ 1    4  7    9
+Output: 6
+Explanation: Inorder of Given BST will be:
+1, 3, 4, 6, 7, 8, 9. So, here median will 6.
 
-# Example 2:
+Example 2:
 
-# Input:
-#       6
-#     /   \
-#   3      8   
-# /   \    /   
-# 1    4   7   
-# Output: 5
-# Explanation:Inorder of Given BST will be:
-# 1, 3, 4, 6, 7, 8. So, here median will
-# (4 + 6)/2 = 10/2 = 5.
+Input:
+       6
+     /   \
+   3      8   
+ /   \    /   
+ 1    4   7   
+Output: 5
+Explanation:Inorder of Given BST will be:
+1, 3, 4, 6, 7, 8. So, here median will
+(4 + 6)/2 = 10/2 = 5. """
 
 #User function Template for python3
 

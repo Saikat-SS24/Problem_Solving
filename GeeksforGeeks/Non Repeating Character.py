@@ -1,19 +1,19 @@
-# Given a string S consisting of lowercase Latin Letters. Return the first non-repeating character in S. 
-# If there is no non-repeating character, return '$'.
+""" Given a string S consisting of lowercase Latin Letters. Return the first non-repeating character in S. 
+If there is no non-repeating character, return '$'.
 
-# Input:
-# S = hello
-# Output: h
-# Explanation: In the given string, the
-# first character which is non-repeating
-# is h, as it appears first and there is
-# no other 'h' in the string.
+Input:
+S = hello
+Output: h
+Explanation: In the given string, the
+first character which is non-repeating
+is h, as it appears first and there is
+no other 'h' in the string.
 
-# Input:
-# S = zxvczbtxyzvy
-# Output: c
-# Explanation: In the given string, 'c' is
-# the character which is non-repeating. 
+Input:
+S = zxvczbtxyzvy
+Output: c
+Explanation: In the given string, 'c' is
+the character which is non-repeating. """
 
 #User function Template for python3
 

@@ -1,35 +1,35 @@
-# Given a 2D binary matrix A(0-based index) of dimensions NxM. Find the minimum number of steps required
-# to reach from (0,0) to (X, Y).
+"""Given a 2D binary matrix A(0-based index) of dimensions NxM. Find the minimum number of steps required
+to reach from (0,0) to (X, Y).
 
-# Example 1:
+Example 1:
 
-# Input:
-# N=3, M=4
-# A=[[1,0,0,0], 
-#   [1,1,0,1],
-#   [0,1,1,1]]
-# X=2, Y=3 
-# Output:
-# 5
-# Explanation:
-# The shortest path is as follows:
-# (0,0)->(1,0)->(1,1)->(2,1)->(2,2)->(2,3).
+Input:
+N=3, M=4
+A=[[1,0,0,0], 
+[1,1,0,1],
+[0,1,1,1]]
+X=2, Y=3 
+Output:
+5
+Explanation:
+The shortest path is as follows:
+(0,0)->(1,0)->(1,1)->(2,1)->(2,2)->(2,3).
 
-# Example 2:
+Example 2:
 
-# Input:
-# N=3, M=4
-# A=[[1,1,1,1],
-#   [0,0,0,1],
-#   [0,0,0,1]]
-# X=0, Y=3
-# Output:
-# 3
-# Explanation:
-# The shortest path is as follows:
-# (0,0)->(0,1)->(0,2)->(0,3).
+Input:
+N=3, M=4
+A=[[1,1,1,1],
+  [0,0,0,1],
+  [0,0,0,1]]
+X=0, Y=3
+Output:
+3
+Explanation:
+The shortest path is as follows:
+(0,0)->(0,1)->(0,2)->(0,3). """
 
-#User function Template for python3
+# User function Template for python3
 from collections import deque
 
 class Solution:
