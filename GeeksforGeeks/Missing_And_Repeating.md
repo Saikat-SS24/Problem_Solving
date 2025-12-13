@@ -1,23 +1,38 @@
-""" Given an unsorted array arr of of positive integers. One number 'A' from set {1, 2,....,n} is missing and one 
-number 'B' occurs twice in array. Find numbers A and B.
+## Missing And Repeating
 
-Examples
+Given an unsorted array arr[] of size n, containing elements from the range 1 to n, it is known that one number in this range is missing, and another number occurs twice in the array, find both the duplicate number and the missing number.
+
+Examples:
 
 Input: arr[] = [2, 2]
-Output: 2 1
-Explanation: Repeating number is 2 and smallest positive missing number is 1.
+
+Output: [2, 1]
+
+Explanation: Repeating number is 2 and the missing number is 1.
 
 Input: arr[] = [1, 3, 3] 
-Output: 3 2
-Explanation: Repeating number is 3 and smallest positive missing number is 2.
+
+Output: [3, 2]
+
+Explanation: Repeating number is 3 and the missing number is 2.
+
+Input: arr[] = [4, 3, 6, 2, 1, 1]
+
+Output: [1, 5]
+
+Explanation: Repeating number is 1 and the missing number is 5.
 
 Expected Time Complexity: O(n)
+
 Expected Auxiliary Space: O(1)
 
 Constraints:
-2 ≤ n ≤ 105
-1 ≤ arr[i] ≤ n """
 
+2 ≤ n ≤ 105
+
+1 ≤ arr[i] ≤ n 
+
+```bash
 #User function Template for python3
 
 class Solution:
@@ -58,3 +73,4 @@ if __name__ == '__main__':
         tc = tc - 1
 
 # } Driver Code Ends
+```
