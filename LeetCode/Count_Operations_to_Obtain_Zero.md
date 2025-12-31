@@ -7,7 +7,7 @@ In one operation, if num1 >= num2, you must subtract num2 from num1, otherwise s
 For example, if num1 = 5 and num2 = 4, subtract num2 from num1, thus obtaining num1 = 1 and num2 = 4. However, if num1 = 4 and num2 = 5, after one operation, num1 = 4 and num2 = 1.
 Return the number of operations required to make either num1 = 0 or num2 = 0.
 
-Example 1:
+### Example 1:
 
 Input: num1 = 2, num2 = 3
 
@@ -20,7 +20,7 @@ Explanation:
 Now num1 = 0 and num2 = 1. Since num1 == 0, we do not need to perform any further operations.
 So the total number of operations required is 3.
 
-Example 2:
+### Example 2:
 
 Input: num1 = 10, num2 = 10
 
@@ -31,9 +31,10 @@ Explanation:
 Now num1 = 0 and num2 = 10. Since num1 == 0, we are done.
 So the total number of operations required is 1.
  
-Constraints:
+### Constraints:
+- 0 <= num1, num2 <= 105
 
-0 <= num1, num2 <= 105
+## Solution
 
 ```bash
 class Solution:
