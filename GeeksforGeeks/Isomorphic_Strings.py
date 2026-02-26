@@ -1,42 +1,24 @@
-""" Given two strings 'str1' and 'str2', check if these two strings are isomorphic to each other.
+## Isomorphic Strings
 
-If the characters in str1 can be changed to get str2, then two strings, str1 and str2, are isomorphic. A character must 
-be completely swapped out for another character while maintaining the order of the characters. A character may map to 
-itself, but no two characters may map to the same character.
+Given two strings s1 and s2 consisting of only lowercase English letters and of equal length, check if these two strings are isomorphic to each other.
+If the characters in s1 can be changed to get s2, then two strings, s1 and s2 are isomorphic. A character must be completely swapped out for another character while maintaining the order of the characters. A character may map to itself, but no two characters may map to the same character.
 
-Example 1:
+Examples:
 
-Input:
-str1 = aab
-str2 = xxy
-Output: 
-1
-Explanation: 
-There are two different characters in aab and xxy, i.e a and b with frequency 2 and 1 respectively.
-
-Example 2:
-
-Input:
-str1 = aab
-str2 = xyz
-Output: 
-0
-Explanation: 
-There are two different characters in aab but there are three different charactersin xyz. So there won't be one to one 
-mapping between str1 and str2.
-Your Task:
-You don't need to read input or print anything.Your task is to complete the function areIsomorphic() which takes the 
-string str1 and string str2 as input parameter and  check if two strings are isomorphic. The function returns true if 
-strings are isomorphic else it returns false.
-
-Expected Time Complexity: O(|str1|+|str2|).
-Expected Auxiliary Space: O(Number of different characters).
-Note: |s| represents the length of string s.
-
+Input: s1 = "aab", s2 = "xxy"
+Output: true
+Explanation: Each character in s1 can be consistently mapped to a unique character in s2 (a → x, b → y).
+Input: s1 = "aab", s2 = "xyz"
+Output: false
+Explanation: Same character 'a' in s1 maps to two different characters 'x' and 'y' in s2.
+Input: s1 = "abc", s2 = "xxz"
+Output: false
+Explanation: Two different characters 'a' and 'b' in s1 maps with same character 'x' in s2. 
 Constraints:
-1 <= |str1|, |str2| <= 105 """
+1 ≤ s1.size() = s2.size() ≤ 105 
 
 
+```bash
 #User function Template for python3
 MAX_CHARS = 256
 
@@ -118,3 +100,4 @@ if __name__=='__main__':
             print(0)
             
 # } Driver Code Ends
+```
