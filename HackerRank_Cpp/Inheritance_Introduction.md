@@ -1,6 +1,6 @@
 ## Inheritance Introduction
 
-```bash
+```
 #include <cmath>
 #include <cstdio>
 #include <vector>
