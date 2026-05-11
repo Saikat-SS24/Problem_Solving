@@ -36,7 +36,7 @@ answer = [7,1,3,9].
 
 ## Solution
 
-```bash
+```cpp
 // C++
 
 class Solution {

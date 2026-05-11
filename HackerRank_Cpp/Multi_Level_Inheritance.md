@@ -1,6 +1,6 @@
 ## Multi Level Inheritance
 
-```bash
+```cpp
 #include <cmath>
 #include <cstdio>
 #include <vector>

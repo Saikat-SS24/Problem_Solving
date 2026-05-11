@@ -1,6 +1,6 @@
 ## Inheritance Introduction
 
-```
+```cpp
 #include <cmath>
 #include <cstdio>
 #include <vector>
